@@ -1,18 +1,263 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tommy Nelson | Web Developer</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Condiment' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
 </head>
-
 <body>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="landing-text">
+            <h1>Tommy Nelson</h1>
+            <h6><s>Web</s> Developer | <s>Web</s> Designer | <s>Social</s> Media Consultant
+        </div>
+    </header>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+                <img src="images/E.jpg" alt="">
+            </div>
+            <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+            <p>
+                     I am an honest, hardworking individual who is self motivated with an eagerness to learn and add to my knowledge base and skills.
+                     I am a team player who is willing to work weekends and holidays in any time zone as well as overtime. 
+                     I am not just seeking a job I am seeking a home where I can help build a company and improve my skills. 
+                     I can work on my own initiative and adapt well to situations. 
+                     I am determined and persistent with great communication skills as well as technical competency.
+            </p>
+            <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-github-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+    
+                    </ul>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Services</h1>
+                <h6>What I can do for you</h6>
+            </div>
+            <div class="my-skills">
+                <div class="skill" data-aos="fade-in" data-aos-delay="300">
+                    <div class="icon-container">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h1 style="opacity: 0.3" >Web Design</h1>
+                    <p>
+                            Using design tools such as <span>Adobe Photoshop</span> as well as frameworks such as <span>Bootstrap</span> to provide a well polished user interface
+                            that is both beautiful and easy for the user to traverse.
+                    </p>
+                    <a href="#">Languages</a>
+                </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="600">
+                    <div class="icon-container">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h1 style="opacity: 0.3">Web Development</h1>
+                    <p>
+                            providing clean and well organized markup using <span >HTML5</span> as well as proper styling using <span>CSS3</span> and its frameworks
+                            to create amazing websites and web applications with added functionality using both <span>Vanilla Javascript</span> and its frameworks.
+                    </p>
+                    <a href="#">Frameworks</a>
+                </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container">
+                            <i class="fas fa-mail-bulk"></i>
+                    </div>
+                    <h1 style="opacity: 0.3">Social Media Marketing</h1>
+                    <p>
+                            Creating and providing existing customers with <span>engaging content</span> as well as producing content that will attract new customers
+                            using several marketting startegies on several social media sites such as <span>Facebook, Twitter, Youtube, Instagram,</span> and many more.
+                    </p>
+                    <a href="#">Other Skills</a>
+                </div>
+            </div>
+        </div>
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
+    </section>
 
+    
+
+    <section class="porfolio" id="porfolio">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Porfolio</h1>
+                    <h6>View some of my recent work</h6>
+                </div>
+                <div class="porfolio-item">
+                    <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                        <img src="images/B.jpg" alt="Landing Page"style="height: 85vh">
+                    </div>
+                    <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+                        <h6>Web Development</h6>
+                        <h1>CSS Gradient Background Generator</h1>
+                        <p>
+                            This is was created as a tool to quickly create amazing linear gradient backgrounds 
+                            using <span>HTML5</span>, <span>CSS3</span>,
+                             <span>Javascript</span> and <span>Bootstrap 4</span>
+                        </p>
+                        <a href="#">View Details</a>
+                    </div>
+                </div>
+                <div class="porfolio-item">
+                    <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+                        <h6>Web Development</h6>
+                        <h1>Ecommerce Store</h1>
+                        <p>
+                           This is a all in one E-commerce store created using <span>HTML5</span>, <span>CSS3</span>,
+                           <span>Javascript</span> and <span>Bootstrap 4</span>.
+                        </p>
+                        <a href="#">View Details</a>
+                    </div>
+                    <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+                        <img src="images/A.jpg" alt="E-commerce Store" style="height: 85vh">
+                    </div>
+                        
+                </div>
+                <div class="porfolio-item">
+                    <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+                        <img src="images/G.jpg" alt="HTML Email PSD"style="height: 85vh">
+                    </div>
+                    <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
+                        <h6>Web Design</h6>
+                        <h1>HTML Email PSD</h1>
+                        <p>
+                        This was designed in <span>Adobe Photoshop</span> and then added using <span>HTML5</span>.
+                        </p>
+                        <a href="#">View Details</a>
+                        </div>
+                </div>
+        
+
+            </div>
+    </section>
+
+    <section class="experience" id="experience">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Work Experience</h1>
+                    <h6>Past and present Jobs</h6>
+                </div>
+                <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+                    <ul>
+                        <li class="date" data-date="2017 - Present">
+                            <h1>Local and International Freelancing</h1>
+                            <p>
+                                Doing Freelance work such as transcription, social media marketing, customer support, creating landing pages, 
+                                website maintenance, graphic designs.
+
+                            </p>
+                        </li>
+                        <li class="date" data-date="2019 - 2019">
+                            <h1>Southern Contracting Company limited</h1>
+                            <p>
+                                Doing electrical repairs and installations of cameras, solar panels and computer systems.
+                            </p>
+                        </li>
+                        <li class="date" data-date="2016 - 2017">
+                            <h1>St. Elizabeth Cooperative Credit Union</h1>
+                            <p>
+                                Working as a <span>Bank Teller</span> conducting transactions, cross selling products, 
+                                dealing with customer queries and processing loans as well as working as part time <span>PC Technician</span> , 
+                                ensuring that all computer sytems and related hardware are up to date and performing preventative tests.
+
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+    <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Contact</h1>
+                    <h6>let's work together</h6>
+                </div>
+                <form action="" data-aos="fade-down" data-aos-delay="300">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your Email..." required>
+                    <label for="service">Services</label>
+                    <select name="services" id="service">Services:
+                        <option value="">Web Design</option>
+                        <option value="">Web Development</option>
+                        <option value="">Social Media Marketing</option>
+                        <option value="">All of the above</option>
+                    </select>
+                    <label for="subject">Subject:</label>
+                    <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                    <input type="submit" value="Submit">
+                    
+                </form>
+
+            </div>
+    </section>
+
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <p><span>&copy; 2019 Tommy Nelson | Web Developer | Web Designer | Social Media Consultant</span></p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
