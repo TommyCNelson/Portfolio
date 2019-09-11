@@ -352,14 +352,14 @@ s{
 /*End services*/
 
 /*Start portfolio*/
-.porfolio-item{
+.portfolio-item{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 5rem;
 }
 
-.porfolio-item:last-child{
+.portfolio-item:last-child{
     margin-bottom: 0;
 }
 
@@ -640,7 +640,7 @@ input[type="submit"]:hover{
         margin: 0 0 7rem 0;
     }
 
-    .porfolio-item{
+    .portfolio-item{
         flex-direction: column;
     }
 
